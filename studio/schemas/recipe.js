@@ -7,7 +7,7 @@ export default {
   fields: [
     {
       name: "name",
-      title: "Recipe name",
+      title: "Recipe Name",
       type: "string",
     },
     {
@@ -23,9 +23,7 @@ export default {
       name: "chef",
       title: "Chef",
       type: "reference",
-      to: {
-        type: "chef",
-      },
+      to: { type: "chef" },
     },
     {
       name: "mainImage",
@@ -51,7 +49,7 @@ export default {
             },
             {
               name: "wholeNumber",
-              title: "WholeNumber",
+              title: "Whole Number",
               type: "number",
             },
             {

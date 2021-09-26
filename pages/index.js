@@ -6,7 +6,7 @@ const recipesQuery = `*[_type == "recipe"]{
   _id,
   name,
   slug,
-  mainImage
+  mainImage,
 }`;
 
 export default function Home({ recipes }) {
